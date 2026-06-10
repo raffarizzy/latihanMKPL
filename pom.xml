@@ -12,9 +12,11 @@
     </properties>
 
     <distributionManagement>
-        <id>github</id>
-        <name>GitHub Packages</name>
-        <url>https://maven.pkg.github.com/raffarizzy/latihanMKPL</url>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/raffarizzy/latihanMKPL</url>
+        </repository>
     </distributionManagement>
 
     <dependencies>
