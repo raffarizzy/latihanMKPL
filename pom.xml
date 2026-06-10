@@ -11,6 +11,12 @@
         <exec.mainClass>com.mycompany.kalkulatordiskon.Main</exec.mainClass>
     </properties>
 
+    <distributionManagement>
+        <id>github</id>
+        <name>GitHub Packages</name>
+        <url>https://maven.pkg.github.com/raffarizzy/latihanMKPL</url>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -33,6 +39,11 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
             </plugin>
+        <plugin>
+            <groupId>org.sonnarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>3.11.0.3922</version>
+        </plugin>
         </plugins>
     </build>
 </project>
