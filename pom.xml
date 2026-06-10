@@ -3,16 +3,8 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.raffarizzy</groupId>
     <artifactId>latihanmkpl</artifactId>
-    <version>0.9</version>
+    <version>0.9.1</version>
     <packaging>jar</packaging>
-
-    <url>https://github.com/raffarizzy/latihanMKPL</url>
-
-    <scm>
-        <url>https://github.com/raffarizzy/latihanMKPL/tree/main</url>
-        <connection>scm:git:git://github.com/raffarizzy/latihanMKPL.git</connection>
-        <developerConnection>scm:git:ssh://github.com:raffarizzy/latihanMKPL.git</developerConnection>
-    </scm>
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -51,7 +43,7 @@
                 <version>3.2.5</version>
             </plugin>
         <plugin>
-            <groupId>org.sonnarsource.scanner.maven</groupId>
+            <groupId>org.sonarsource.scanner.maven</groupId>
             <artifactId>sonar-maven-plugin</artifactId>
             <version>3.11.0.3922</version>
         </plugin>
